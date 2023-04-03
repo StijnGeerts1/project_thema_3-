@@ -32,3 +32,11 @@ header p
 {
 
 }
+form
+{
+    text-align: center;
+}
+form p
+{
+    padding: 5px;
+}

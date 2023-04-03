@@ -1,5 +1,9 @@
-
-.toggler
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.vinkje
 {
     /* om het altijd het boven op te laten zetten*/
     z-index:2;     /* zorgt er voor dat het uitklapt*/
@@ -26,8 +30,7 @@
     justify-content: center;
 }
 
-/* CREATING THE MIDDLE LINE OF THE HAMBURGER : */
-
+/* de middelste streep te maken */
 .burger > div
 {
     position: relative;
@@ -39,8 +42,7 @@
     transition: all  0.4s ease;
 }
 
-/* CREATING THE TOP AND BOTTOM LINES :
-TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
+/* de bovenste en onderste streep te maken en te plaatsen van uit de middelste streep  */
 
 .burger > div::before,
 .burger > div::after
@@ -59,52 +61,45 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     top: 10px;
 }
 
-/* IF THE TOGGLER IS IN ITS CHECKED STATE, THEN SETTING THE BACKGROUND OF THE MIDDLE LAYER TO COMPLETE BLACK AND OPAQUE :  */
+/* als erop geklikt is gaat de middelste streepje weg */
 
-.toggler:checked + .burger > div
+.vinkje:checked + .burger > div
 {
     background: rgba(0,0,0,0);
 }
-
-.toggler:checked + .burger > div::before
+/* om de twee streepjes te laten draaien in een kruisje nadat erop geklikt heb  */
+.vinkje:checked + .burger > div::before
 {
     top: 0;
     transform: rotate(45deg);
-    background: black;
+    background: white;
 }
 
-/* AND ROTATING THE TOP AND BOTTOM LINES :  */
-
-.toggler:checked + .burger > div::after
+/* om de twee streepjes te laten draaien in een kruisje nadat erop geklikt heb  */
+.vinkje:checked + .burger > div::after
 {
     top: 0;
+    /*draaien met 135 graden*/
     transform: rotate(135deg);
-    background: black;
+    background: white;
 }
-
-
-/* MAIN MENU WITH THE WHITE BACKGROUND AND THE TEXT :  */
-
 .menu
 {
-    background: white;
+    background: black;
     width: 0%;
-    height: 50vh;
-    /* APPLYING TRANSITION TO THE MENU :  */
+    height: 300px;
+    /*om de overgang te vertragen en beter*/
+    transition: all 0.8s ease;
 
-    transition: all 0.4s ease;
 }
 
 /* als je er op klikt schuift hij uit  */
-
-.toggler:checked ~ .menu
+.vinkje:checked ~ .menu
 {
-    width: 30%;
+    width: 20%;
+    height: 100vh;
 }
-
-
-/* STYLING van de lijst  */
-
+/* styling van de lijst  */
 .menu >  nav > ul
 {
     display: flex;
@@ -114,28 +109,35 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     /* om de lijst niet zichtbaar temaken  */
     visibility: hidden;
 }
-
 .menu > nav > ul > li
 {
     list-style: none;
     padding: 10px;
 }
-
 .menu > nav > ul > li > a
 {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 /* wanneer het aangevinkt word zie je de lijst */
-.toggler:checked ~ .menu > nav > ul
+.vinkje:checked ~ .menu > nav > ul
 {
     /* om de overgang van de lijst zichtbaar maken versloomd word*/
     transition: visibility 0.4s ease;
     transition-delay: 0.1s;
     /* om het zichtbaar te maken*/
     visibility: visible;
+}
+.container
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+form
+{
+    text-align: center;
 }
