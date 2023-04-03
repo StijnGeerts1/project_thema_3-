@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Sense</title>
 </head>
 <header>
     <?php
@@ -18,7 +18,7 @@
     <input type="text" name="vr1">
     <p>Wat is u Leeftijd?</p>
     <input type="text" name="vr2">
-    <p>Wat was uw Vorige werkgever? (als uw er een had)</p>
+    <p>Wat was uw Vorige werkgever? (als u er een had)</p>
     <input type="text" name="vr3">
     <p>Ervaring in de afwas?</p>
     <label>ja<input type="radio" name="vr4" value="1"></label><br>
@@ -55,7 +55,8 @@
     <label>nee<input type="radio" name="vr14" value="1"></label>
     <p>Vind je het niet erg om een aantal overuren te maken?</p>
     <label>ja<input type="radio" name="vr15" value="0"></label><br>
-    <label>nee<input type="radio" name="vr15" value="1"></label>
+    <label>nee<input type="radio" name="vr15" value="1"></label><br>
+    <input type="submit">
 </form>
 </body>
 </html>
