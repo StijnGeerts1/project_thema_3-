@@ -31,6 +31,25 @@
                 <a class="button" href="#">lees meer over het menu</a>
             </div>
         </div>
+        <article>
+            <figure class="foto1">
+                <p>Chef’s Challenge – seizoensgebonden verrassingsmenu</p>
+                <img src="Images/eten%20sence/foto%20eten%201.jpg">
+                <div style="clear"></div>
+            </figure>
+            <figure class="foto2">
+                <p>Chef’s Challenge – seizoensgebonden verrassingsmenu</p>
+                <img src="Images/eten%20sence/foto%202.jpg">
+            </figure>
+            <figure class="foto3">
+                <p>Chef’s Challenge – seizoensgebonden verrassingsmenu</p>
+                <img src="Images/eten%20sence/foto%203.jpg">
+            </figure>
+            <figure class="foto4">
+                <p>Chef’s Challenge – seizoensgebonden verrassingsmenu</p>
+               <img src="Images/eten%20sence/foto%204.jpg">
+            </figure>
+        </article>
     </main>
 </body>
 </html>

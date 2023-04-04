@@ -4,7 +4,7 @@
     padding: 0;
     font-family: ubuntu;
 }
-
+/*-----------------------------------------header----------------------------------*/
 .hoofdpagina
 {
     background-image:url("../Images/header-home01-5 - kopie.jpg");
@@ -13,7 +13,6 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
-
 }
 
 .opvulling
@@ -43,21 +42,8 @@ header img
     width: 20%;
     margin-left: 15vw;
 }
-
-header a
-{
-    padding: 12px 30px;
-    background-color: rgb(255, 255, 255);
-    font-weight: 400;
-    color: black;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 15vw;
-    border-radius: 50px;
-    border: 1px solid white;
-}
-
+/*-----------------------------------------header----------------------------------*/
+/*--------------------------------------artikel1-----------------------------------*/
 .dennis
 {
     float: right;
@@ -78,16 +64,48 @@ main div div p
 {
     padding: 10px;
 }
+/*--------------------------------------artikel1-----------------------------------*/
+/*---------------------------------------buttons-----------------------------------*/
+header a
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-left: 15vw;
+    border: 1px solid white;
+}
 
-.button
+.button , header a
 {
     padding: 12px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.button
+{
     background: transparent;
     color: #e53935;
-    font-weight: 400;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 30px;
-    border-radius: 50px;
     border: 1px solid #e53935;
 }
+/*---------------------------------------buttons-----------------------------------*/
+/*--------------------------------------artikel2-----------------------------------*/
+
+figure img
+{
+    max-height: 300px;
+    max-width: 400px;
+    width: 100%;
+}
+
+article
+{
+    padding: 10px;
+}
+
+.foto2
+{
+
+}
+
