@@ -138,6 +138,7 @@ body
 form
 {
     text-align: center;
+    margin-bottom: 50px;
 }
 #lijstbutton
 {
@@ -152,4 +153,20 @@ form
     border-radius: 50px;
     transition: all 200ms;
     border: 1px solid #e53935
+}
+#lijstbutton:hover
+{
+    background-color: #e53935;
+    color: white;
+}
+h2
+{
+    text-align: center;
+    padding-top: 20px;
+}
+h2~p
+{
+    width: 55%;
+    margin-right: auto;
+    margin-left: auto;
 }
