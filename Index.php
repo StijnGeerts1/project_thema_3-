@@ -8,14 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>sence</title>
     <link href="Styles/style.css" rel="stylesheet">
-    <link href="Styles/nav-foot.css" rel="stylesheet">
 </head>
 <body>
     <header class="hoofdpagina">
         <img src="Images/sence_logo.png">
+        <?php include ("/inetpub/wwwroot/project_thema_3-/Includes/nav.php")?>
         <h1>"Eten moet spannend zijn zonder afbreuk te doen aan de authentieke smaak van de ingrediënten."</h1>
         <p>Dennis Middeldorp, Patron Cuisinier</p>
-        <a href="#">Werken bij Sence?</a>
+        <a class="buttonwerk" href="#">Werken bij Sence?</a>
         <div class="opvulling"></div>
     </header>
     <main>
@@ -28,7 +28,7 @@
                 <p>Sense is door Michelin in 2022 wederom en voor de elfde maal bekroond met een ster. Dennis ziet dat als een teken van waardering, maar zelfs duizend sterren veranderen niets aan zijn ambities: liefdevol koken en aandacht schenken aan zijn gasten vanuit een duurzame keuken met respect voor de natuur en haar seizoenen.</p>
                 <h2>Smaak en beleving</h2>
                 <p>Sense is loungy en modern en door Michelin in 2022 wederom voor de elfde keer bekroond met een Michelinster(*). Van het kleurrijke moderne interieur tot de exclusieve kaaswagen en de uitgebalanceerde wijnkaart van Maître-Sommelier Sven Heijkoop waarop zowel biologische ontdekkingen als klassieke grote wijnhuizen vertegenwoordigd zijn. Het restaurant in Den Bosch is ruim opgezet;</p>
-                <a class="button" href="#">lees meer over het menu</a>
+                <a class="buttonartikel" href="#">lees meer over het menu</a>
             </div>
         </div>
         <article>
@@ -60,12 +60,12 @@
             <figure class="wrapper">
                 <img class="display1" src="Images/lunch%20en%20diner.jpg">
                 <h2>Lunch & Diner</h2>
-                <p>Een lunch of diner bij Sense Restaurant is een culinair samenspel van de pure en creatieve gerechtjes van Patron Cuisinier Dennis Middeldorp, prachtig aangevuld met de wijnen van Sommelier Sven Heijkoop. Laat je verrassen door het Chef’s Challenge menu of kies voor culinaire warme of koude gerechtjes van onze menukaart.<br><br> <a href="#"> Lees meer-> </a></p>
+                <p>Een lunch of diner bij Sense Restaurant is een culinair samenspel van de pure en creatieve gerechtjes van Patron Cuisinier Dennis Middeldorp, prachtig aangevuld met de wijnen van Sommelier Sven Heijkoop. Laat je verrassen door het Chef’s Challenge menu of kies voor culinaire warme of koude gerechtjes van onze menukaart.<br><br> <a class="leesmeer" href="#"> Lees meer-> </a></p>
             </figure>
             <figure class="wrapper">
                 <img class="display1" src="Images/zakelijk.jpg">
                 <h2>Zakelijk</h2>
-                <p>Van een volledig verzorgde vergadering of vergaderlunch tot een zakelijk diner, koken op locatie of bedrijfsborrel in ons lounge gedeelte met bar - niets is onmogelijk bij Sense Restaurant in Den Bosch. <br><br> <a href="#"> Lees meer-> </a></p>
+                <p>Van een volledig verzorgde vergadering of vergaderlunch tot een zakelijk diner, koken op locatie of bedrijfsborrel in ons lounge gedeelte met bar - niets is onmogelijk bij Sense Restaurant in Den Bosch. <br><br> <a class="leesmeer" href="#"> Lees meer-> </a></p>
             </figure>
         </section>
     </main>

@@ -78,7 +78,7 @@ main div div p
 }
 /*--------------------------------------artikel1-----------------------------------*/
 /*---------------------------------------buttons-----------------------------------*/
-header a
+.buttonwerk
 {
     background-color: white;
     color: black;
@@ -86,7 +86,7 @@ header a
     border: 1px solid white;
 }
 
-.button , header a
+.buttonartikel , .buttonwerk
 {
     padding: 12px 30px;
     display: inline-block;
@@ -95,7 +95,7 @@ header a
     font-weight: 400;
     margin-top: 30px;
 }
-.button
+.buttonartikel
 {
     background: transparent;
     color: #e53935;
@@ -158,7 +158,7 @@ section figure p
     padding: 20px;
 }
 
-a
+.leesmeer
 {
     color: #e53935;
     padding-left: 0px;
