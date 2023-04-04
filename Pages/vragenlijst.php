@@ -18,7 +18,7 @@ project
     ?>
 </header>
 <body>
-<form action="result.php" method="post">
+<form action="result.php" method="post" name="zelftest">
     <p>Wat is u Naam?</p>
     <input type="text" name="vr1">
     <p>Wat is u Leeftijd?</p>
@@ -61,7 +61,7 @@ project
     <p>Vind je het niet erg om een aantal overuren te maken?</p>
     <label><input type="radio" name="vr15" value="0">ja</label><br>
     <label><input type="radio" name="vr15" value="1">nee</label><br>
-    <input type="submit">
+    <input type="submit"  value="verzenden" id="lijstbutton">
 </form>
 </body>
 </html>

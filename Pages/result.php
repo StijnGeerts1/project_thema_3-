@@ -18,6 +18,72 @@ project
     include "../Includes/nav.php";
     ?>
 </header>
+<?php
+if (isset($_POST["verzenden"]))
+{
+    $Name = isset($_POST["vr1"]);
+}
+else
+{
+    echo "<p></p>";
+}
+if (isset($_POST["verzenden"]))
+{
+    $Age = isset($_POST["vr2"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $Exp = isset($_POST["vr3"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr4 = isset($_POST["vr4"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr5 = isset($_POST["vr5"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr6 = isset($_POST["vr6"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr7 = isset($_POST["vr7"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr8 = isset($_POST["vr8"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr9 = isset($_POST["vr9"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr10 = isset($_POST["vr10"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr11 = isset($_POST["vr11"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr12 = isset($_POST["vr12"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr13 = isset($_POST["vr13"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr14 = isset($_POST["vr14"]);
+}
+if (isset($_POST["verzenden"]))
+{
+    $vr15 = isset($_POST["vr15"]);
+}
+?>
 
 </body>
 </html>

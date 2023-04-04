@@ -22,7 +22,7 @@ body
     left: 0;
     height: 40px;
     width: 40px;
-    padding: 0.6rem;
+    padding: 10px;
 
     /* dit zorgt er voor dat het in het midden komt te staan */
     display: flex;
@@ -96,7 +96,7 @@ body
 /* als je er op klikt schuift hij uit  */
 .vinkje:checked ~ .menu
 {
-    width: 20%;
+    width: 70%;
     height: 100vh;
 }
 /* styling van de lijst  */
@@ -134,10 +134,23 @@ body
 {
     position: fixed;
     top: 0;
-    width: 100%;
-    height: 100vh;
+
 }
 form
 {
     text-align: center;
+}
+#lijstbutton
+{
+    padding: 12px 30px;
+    background: transparent;
+    color: #e53935;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 50px;
+    transition: all 200ms;
+    border: 1px solid #e53935;
 }
