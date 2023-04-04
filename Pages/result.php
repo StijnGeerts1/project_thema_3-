@@ -18,6 +18,7 @@ project
     include "../Includes/nav.php";
     ?>
 </header>
+<!--hallo-->
 <?php
 if (isset($_POST["verzenden"]))
 {
@@ -25,7 +26,7 @@ if (isset($_POST["verzenden"]))
 }
 else
 {
-    echo "<p></p>";
+    echo "<p>je hebt niet alles in gevuld</p>";
 }
 if (isset($_POST["verzenden"]))
 {
@@ -38,6 +39,7 @@ if (isset($_POST["verzenden"]))
 if (isset($_POST["verzenden"]))
 {
     $vr4 = isset($_POST["vr4"]);
+
 }
 if (isset($_POST["verzenden"]))
 {
@@ -83,6 +85,8 @@ if (isset($_POST["verzenden"]))
 {
     $vr15 = isset($_POST["vr15"]);
 }
+$Totaal = $vr4+$vr5+$vr6+$vr7+$vr8+$vr9+$vr10+$vr11+$vr12+$vr13+$vr14+$vr15;
+
 ?>
 
 </body>

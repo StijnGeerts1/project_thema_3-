@@ -18,6 +18,32 @@ project
     ?>
 </header>
 <body>
+<?php
+
+// om het uur op te slaan
+$hour = date(format:"H");
+// om aan de hand van het uur een zin maken
+if ($hour <=5)
+{
+    echo "<h2>Goedenacht, welkom op onze site</h2><br>
+          <p>Wij hebben een zelftest gemaakt voor toekomstige medewerkers en huidige medewerkers zodat jullie je beste behorende afdeling komen. De afdelingen zijn: barmedewerker, bediening medewerker, schoonmaak en chef. Dus denk goed na over de vragen.</p>";
+}
+elseif ($hour >= 6 && $hour<=11)
+{
+    echo "<h2>Goedemorgen, welkom op onze site</h2><br>
+          <p>Wij hebben een zelftest gemaakt voor toekomstige medewerkers en huidige medewerkers zodat jullie je beste behorende afdeling komen. De afdelingen zijn: barmedewerker, bediening medewerker, schoonmaak en chef. Dus denk goed na over de vragen.</p>";
+}
+elseif ($hour >= 12 && $hour<=17)
+{
+    echo "<h2>Goedemiddag, welkom op onze site</h2><br>
+          <p>Wij hebben een zelftest gemaakt voor toekomstige medewerkers en huidige medewerkers zodat jullie je beste behorende afdeling komen. De afdelingen zijn: barmedewerker, bediening medewerker, schoonmaak en chef. Dus denk goed na over de vragen.</p>";
+}
+elseif ($hour >=18 && $hour<=23)
+{
+    echo "<h2>Goedenavond, welkom op onze site</h2><br>
+          <p>Wij hebben een zelftest gemaakt voor toekomstige medewerkers en huidige medewerkers zodat jullie je beste behorende afdeling komen. De afdelingen zijn: barmedewerker, bediening medewerker, schoonmaak en chef. Dus denk goed na over de vragen.</p>";
+}
+?>
 <form action="result.php" method="post" name="zelftest">
     <p>Wat is u Naam?</p>
     <input type="text" name="vr1">
@@ -61,6 +87,11 @@ project
     <p>Vind je het niet erg om een aantal overuren te maken?</p>
     <label><input type="radio" name="vr15" value="0">ja</label><br>
     <label><input type="radio" name="vr15" value="1">nee</label><br>
+    <p>Wat denk jij wat jouw uitslag wordt?</p>
+    <label><input type="checkbox"  value="0">bar</label><br>
+    <label><input type="checkbox"  value="0">chef</label><br>
+    <label><input type="checkbox"  value="0">bediening</label><br>
+    <label><input type="checkbox"  value="0">schoonmaak</label><br>
     <input type="submit"  value="verzenden" id="lijstbutton">
 </form>
 </body>
