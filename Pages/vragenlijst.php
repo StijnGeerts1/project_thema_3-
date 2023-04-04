@@ -18,6 +18,29 @@ project
     ?>
 </header>
 <body>
+<?php
+
+// om het uur op te slaan
+$hour = date(format:"H");
+// om aan de hand van het uur een zin maken
+if ($hour <=5)
+{
+    echo "<p>Goedenacht, welkom op onze site</p><br>
+            <p></p>";
+}
+elseif ($hour >= 6 && $hour<=11)
+{
+    echo "<p>Goedemorgen, welkom op onze site</p>";
+}
+elseif ($hour >= 12 && $hour<=17)
+{
+    echo "<p>Goedemiddag, welkom op onze site</p>";
+}
+elseif ($hour >=18 && $hour<=23)
+{
+    echo "<p>Goedenavond, welkom op onze site</p>";
+}
+?>
 <form action="result.php" method="post" name="zelftest">
     <p>Wat is u Naam?</p>
     <input type="text" name="vr1">
