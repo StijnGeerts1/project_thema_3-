@@ -2,11 +2,14 @@
 {
     margin: 0;
     padding: 0;
+    /*lettertypes*/
     font-family: ubuntu;
+    font-family: Arial, sans-serif;
 }
 /*-----------------------------------------header----------------------------------*/
 .hoofdpagina
 {
+    /*achtergrond*/
     background-image:url("../Images/header-home01-5 - kopie.jpg");
     height: 50%;
     width: 100%;
@@ -25,6 +28,7 @@ header h1
     color: white;
     font-size: 34px;
     font-weight: normal;
+    /*om de tekst op de goede positie te krijgen*/
     margin-top: 15vh;
     margin-left:15vw;
 }
@@ -33,24 +37,32 @@ header p
 {
     color: white;
     font-weight: bold;
+    /*om de tekst op de goede positie te krijgen*/
     margin-top: 3vh;
     margin-left:15vw;
 }
 
 header img
 {
-    width: 20%;
+    width: 100%;
+    /*om de tekst op de goede positie te krijgen*/
     margin-left: 15vw;
+    /*voor het logo maximale afmetingen*/
+    max-width: 250px;
+    max-height: 150px;
 }
 /*-----------------------------------------header----------------------------------*/
 /*--------------------------------------artikel1-----------------------------------*/
 .dennis
 {
     float: right;
+    /*als het onder de afmetingen komt gaat hij meebewgen met telefoon*/
     width: 100%;
     height: auto;
+    /*maximale afmetingen plaatje*/
     max-width: 400px;
     max-height: 500px;
+    /*voor de witte zijkanten bij het plaatje*/
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -68,7 +80,7 @@ main div div p
 /*---------------------------------------buttons-----------------------------------*/
 header a
 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     color: black;
     margin-left: 15vw;
     border: 1px solid white;
@@ -94,6 +106,7 @@ header a
 
 figure img
 {
+    /*maximale afmetingen plaatje*/
     max-height: 300px;
     max-width: 400px;
     width: 100%;
@@ -101,11 +114,80 @@ figure img
 
 article
 {
-    padding: 10px;
+    padding: 50px;
 }
 
-.foto2
+.foto2 , .foto4
 {
+  text-align: right;
+}
+
+article figure p
+{
+    font-size: 16px;
+}
+
+#box-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
 
 }
 
+.display1
+{
+    width: 100%;
+    /*maximale afmetingen plaatje*/
+    max-width: 300px;
+    max-height: 350px;
+}
+
+.wrapper
+{
+    /*om de schaduw te krijgen bij de vlakken*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*maximale breedte wrapper*/
+    max-width: 300px;
+}
+
+section figure p
+{
+    padding: 20px;
+}
+
+a
+{
+    color: #e53935;
+    padding-left: 0px;
+    text-decoration: none;
+}
+/*--------------------------------------artikel2-----------------------------------*/
+/*--------------------------------------telefoon-----------------------------------*/
+
+@media screen and (max-width: 900px)
+{
+    article figure p
+    {
+        padding: 5px;
+    }
+
+    #box-wrapper
+    {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        /*om de content in het midden te krijgen*/
+        max-width: fit-content;
+    }
+
+    .wrapper
+    {
+        margin: 20px;
+    }
+}
+/*--------------------------------------telefoon-----------------------------------*/

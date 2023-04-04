@@ -35,7 +35,6 @@
             <figure class="foto1">
                 <p>Chef’s Challenge – seizoensgebonden verrassingsmenu</p>
                 <img src="Images/eten%20sence/foto%20eten%201.jpg">
-                <div style="clear"></div>
             </figure>
             <figure class="foto2">
                 <p>Chef’s Challenge – seizoensgebonden verrassingsmenu</p>
@@ -50,6 +49,25 @@
                <img src="Images/eten%20sence/foto%204.jpg">
             </figure>
         </article>
+        <section id="box-wrapper">
+            <figure class="wrapper">
+                <img class="display1" src="Images/de%20kaaswagen.jpg">
+                <h2>De kaaswagen!</h2>
+                <p>Één van de dingen waar we megatrots op zijn...onze exclusieve kaaswagen met kazen van Fromager Guillaume, Kaasaffineurs van Tricht en lokale kaasmakers!<br><br>
+                    Ter afsluiting van het diner of in plaats van dessert, gewoonweg heerlijk. <br> <br>
+                    Onze brigade helpt je graag een keuze maken uit ons prachtige, steeds wisselende assortiment.<br><br> Enjoy!</p>
+            </figure>
+            <figure class="wrapper">
+                <img class="display1" src="Images/lunch%20en%20diner.jpg">
+                <h2>Lunch & Diner</h2>
+                <p>Een lunch of diner bij Sense Restaurant is een culinair samenspel van de pure en creatieve gerechtjes van Patron Cuisinier Dennis Middeldorp, prachtig aangevuld met de wijnen van Sommelier Sven Heijkoop. Laat je verrassen door het Chef’s Challenge menu of kies voor culinaire warme of koude gerechtjes van onze menukaart.<br><br> <a href="#"> Lees meer-> </a></p>
+            </figure>
+            <figure class="wrapper">
+                <img class="display1" src="Images/zakelijk.jpg">
+                <h2>Zakelijk</h2>
+                <p>Van een volledig verzorgde vergadering of vergaderlunch tot een zakelijk diner, koken op locatie of bedrijfsborrel in ons lounge gedeelte met bar - niets is onmogelijk bij Sense Restaurant in Den Bosch. <br><br> <a href="#"> Lees meer-> </a></p>
+            </figure>
+        </section>
     </main>
 </body>
 </html>
