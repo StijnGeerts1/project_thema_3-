@@ -7,6 +7,8 @@ body
 {
     margin: 0;
     padding: 0;
+    font-family: ubuntu;
+    font-family: Arial, sans-serif;
 }
 .vinkje
 {
@@ -186,19 +188,17 @@ footer
     background-position: center center;
 }
 
-.opvulling2
-{
-    height: 25vw;
-}
-
 .logozwart
 {
-
+    width: 80%;
+    max-width: 200px;
+    padding-top: 20px;
 }
 
 .logos3
 {
-
+    max-width: 200px;
+    padding-left: 20px;
 }
 
 .footerwrapper
@@ -207,5 +207,41 @@ footer
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+footer div p
+{
+    text-align: center;
+    margin: 1px;
+}
+
+h3
+{
+    font-weight:normal;
+}
+
+@media screen and (max-width: 900px)
+{
+    .footerwrapper
+    {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        /*om de content in het midden te krijgen*/
+    }
+
+    footer div p
+    {
+        padding: 10px;
+    }
+
+    .wrapper2
+    {
+        padding: 10px;
+    }
+
 
 }

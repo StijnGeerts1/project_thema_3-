@@ -75,5 +75,6 @@ project
             </figure>
         </section>
     </main>
+    <?php include ("/inetpub/wwwroot/Project_T3/Includes/footer.php")?>
 </body>
 </html>
