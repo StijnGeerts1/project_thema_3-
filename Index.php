@@ -26,7 +26,7 @@ project
     <main>
         <div>
             <div class="tekst">
-                <img src="../project_thema_3-/Images/OIP.jpg" class="dennis">
+                <img src="Images/OIP.jpg" class="dennis">
                 <h2>Dennis Middeldorp</h2>
                 <p>Patron Cuisinier Dennis Middeldorp kookt puur, creatief en verfijnd met alleen de allerbeste producten. De geboren en getogen Bosschenaar die in 2008 zijn geliefde Sense Restaurant oprichtte, haalt het beste uit dagverse en duurzame ingrediënten: "Bij het bedenken van een gerecht wil ik de essentie van smaken samenbrengen. Genieten van smaak, kleur, mondgevoel, de sfeer in het restaurant; alles moet kloppen."</p>
                 <p>Samen met zijn rechterhanden Chefs de Cuisine Peter Linnenbank, Meesterkok Johan Van Groeninge én zijn gepassioneerde en gedreven team, dat zich elke dag met evenveel bevlogenheid en teamgeest inzet, brengt hij de meest mooie smaken met een aziatische, moderne invloed samen. Zijn liefde voor de botanische gastronomie gaat hand in hand met zijn liefde voor vlees en vis. <br><br> Trots is hij op de samenwerking met lokale leveranciers en zijn vriendschap met het Hartenboeren Voedselbos waar hij en zijn team zelf de kruiden en groentjes plukken.</p>
@@ -65,7 +65,8 @@ project
             <figure class="wrapper">
                 <img class="display1" src="Images/lunch%20en%20diner.jpg">
                 <h2>Lunch & Diner</h2>
-                <p>Een lunch of diner bij Sense Restaurant is een culinair samenspel van de pure en creatieve gerechtjes van Patron Cuisinier Dennis Middeldorp, prachtig aangevuld met de wijnen van Sommelier Sven Heijkoop. Laat je verrassen door het Chef’s Challenge menu of kies voor culinaire warme of koude gerechtjes van onze menukaart.<br><br> <a class="leesmeer" href="#"> Lees meer-> </a></p>
+                <p>Een lunch of diner bij Sense Restaurant is een culinair samenspel van de pure en creatieve gerechtjes van Patron Cuisinier Dennis Middeldorp, prachtig aangevuld met de wijnen van Sommelier Sven Heijkoop. Laat je verrassen door het Chef’s Challenge menu of kies voor culinaire warme of koude gerechtjes van onze menukaart.<br><br> <a class="leesmeer" href="#"> Lees meer-> </a>
+                </p>
             </figure>
             <figure class="wrapper">
                 <img class="display1" src="Images/zakelijk.jpg">

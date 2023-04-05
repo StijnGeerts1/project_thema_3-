@@ -177,7 +177,7 @@ form
     margin-left: auto;
 }
 
-.footer
+footer
 {
     background-image:url("../Images/sence footer.jpg");
     height: 50%;
@@ -194,8 +194,19 @@ form
 
 .logozwart
 {
-    width: 20%;
-    max-width: 250px;
-    margin-left: 50px;
-    margin-top: 50px;
+
+}
+
+.logos3
+{
+
+}
+
+.footerwrapper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
 }
