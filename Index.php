@@ -1,4 +1,8 @@
-
+<!--
+datum :27-3-2023
+auteur: Stijn, Beau en vadinho
+project
+-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>sence</title>
     <link href="Styles/style.css" rel="stylesheet">
+    <link href="Styles/nav-foot.css" rel="stylesheet">
 </head>
 <body>
     <header class="hoofdpagina">
@@ -15,7 +20,7 @@
         <?php include ("/inetpub/wwwroot/project_thema_3-/Includes/nav.php")?>
         <h1>"Eten moet spannend zijn zonder afbreuk te doen aan de authentieke smaak van de ingrediënten."</h1>
         <p>Dennis Middeldorp, Patron Cuisinier</p>
-        <a class="buttonwerk" href="#">Werken bij Sence?</a>
+        <a class="buttonwerk" href="#">Werken bij Sence? -></a>
         <div class="opvulling"></div>
     </header>
     <main>

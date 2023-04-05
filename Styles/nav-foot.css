@@ -1,3 +1,8 @@
+/*
+datum :27-3-2023
+auteur: Stijn, Beau en vadinho
+project
+*/
 body
 {
     margin: 0;
@@ -159,14 +164,38 @@ form
     background-color: #e53935;
     color: white;
 }
-h2
+
+.uur
 {
     text-align: center;
     padding-top: 20px;
 }
-h2~p
+.uur~p
 {
     width: 55%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.footer
+{
+    background-image:url("../Images/sence footer.jpg");
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+.opvulling2
+{
+    height: 25vw;
+}
+
+.logozwart
+{
+    width: 20%;
+    max-width: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
