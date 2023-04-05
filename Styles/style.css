@@ -88,6 +88,13 @@ main div div p
     color: black;
     margin-left: 15vw;
     border: 1px solid white;
+    transition: all 200ms;
+}
+
+.buttonwerk:hover
+{
+    background-color: transparent;
+    color: white;
 }
 
 .buttonartikel , .buttonwerk
@@ -112,6 +119,7 @@ main div div p
     background-color: #e53935;
     color: white;
 }
+
 /*---------------------------------------buttons-----------------------------------*/
 /*--------------------------------------artikel2-----------------------------------*/
 
