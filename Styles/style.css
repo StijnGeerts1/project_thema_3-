@@ -202,7 +202,9 @@ main
     #box-wrapper
     {
         display: block;
+        /*zet tekst in het midden*/
         text-align: center;
+        /*zet het in het midden*/
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
