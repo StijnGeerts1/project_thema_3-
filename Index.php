@@ -20,7 +20,7 @@ project
         <?php include ("/inetpub/wwwroot/Project_T3/Includes/nav.php")?>
         <h1>"Eten moet spannend zijn zonder afbreuk te doen aan de authentieke smaak van de ingrediënten."</h1>
         <p>Dennis Middeldorp, Patron Cuisinier</p>
-        <a class="buttonwerk" href="#">Werken bij Sence? -></a>
+        <a class="buttonwerk" href="Pages/vragenlijst.php">Werken bij Sence? -></a>
         <div class="opvulling"></div>
     </header>
     <main>
