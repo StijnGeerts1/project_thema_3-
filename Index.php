@@ -17,7 +17,7 @@ project
 <body>
     <header class="hoofdpagina">
         <img src="Images/sence_logo.png">
-        <?php include ("/inetpub/wwwroot/project_thema_3-/Includes/nav.php")?>
+        <?php include ("/inetpub/wwwroot/Project_T3/Includes/nav.php")?>
         <h1>"Eten moet spannend zijn zonder afbreuk te doen aan de authentieke smaak van de ingrediënten."</h1>
         <p>Dennis Middeldorp, Patron Cuisinier</p>
         <a class="buttonwerk" href="#">Werken bij Sence? -></a>
