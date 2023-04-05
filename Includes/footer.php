@@ -14,11 +14,17 @@ project
     <title>Document</title>
 </head>
 <body>
-    <footer class="footer">
-        <img src="../Images/logo-zwart.png" class="logozwart"> <br><br>
-        <img src="../Images/dutch-cuisine.png" class="3logos">
-        <img src="../Images/michellin.png" class="3logos">
-        <img src="../Images/alliance-gastronomique.png" class="3logos">
+    <footer class="footerwrapper">
+        <div class="wrapper2">
+            <img src="../Images/logo-zwart.png" class="logozwart"> <br> <br>
+            <p></p>
+        </div>
+        <div class="wrapper2">
+            <p></p>
+        </div>
+        <div class="wrapper2">
+            <p></p>
+        </div>
         <div class="opvulling2"></div>
     </footer>
 </body>
