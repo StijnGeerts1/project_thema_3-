@@ -21,10 +21,7 @@ project
 </header>
 <!--hallo-->
 <?php
-
-$Total = 0;
-if($Total >= 1) {
-
+    $Total = 0;
 
     if (isset($_POST["vr1"])) {
         $Name = isset($_POST["vr1"]);
@@ -34,7 +31,8 @@ if($Total >= 1) {
 
     if (isset($_POST["vr2"])) {
         $Age = isset($_POST["vr2"]);
-    } else {
+    }
+    else {
         $Age = null;
     }
 
@@ -134,7 +132,6 @@ if($Total >= 1) {
         $vr14 = null;
     }
 
-
     if (isset($_POST["vr15"])) {
         $vr15 = isset($_POST["vr15"]);
         $Total += $vr15;
@@ -142,13 +139,14 @@ if($Total >= 1) {
         $vr15 = null;
     }
 
-}
-else
-{
-    echo "Je hebt geen vragen ingevuld";
-}
 
+
+$Time = time();
+
+echo $Name;
 echo $Total;
+echo (date("d-m-y",$Time));
+
 
 
 ?>

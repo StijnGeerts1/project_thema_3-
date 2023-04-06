@@ -58,63 +58,65 @@ elseif ($hour >=18 && $hour<=23)
 
 
     <p>Ervaring in de afwas?</p>
-    <label><input type="radio" name="vr4" value="1">ja</label><br>
-    <label><input type="radio" name="vr4" value="0">nee</label>
+    <label><input type="radio" name="vr4" value="2" required>ja</label><br>
+    <label><input type="radio" name="vr4" value="10" required>nee</label>
 
 
     <p>Ervaring in de bediening?</p>
-    <label><input type="radio" name="vr5" value="1">ja</label><br>
-    <label><input type="radio" name="vr5" value="0">nee</label>
+    <label><input type="radio" name="vr5" value="5" required>ja</label><br>
+    <label><input type="radio" name="vr5" value="2" required>nee</label>
 
 
     <p>Ervaring achter de bar?</p>
-    <label><input type="radio" name="vr6" value="1">ja</label><br>
-    <label><input type="radio" name="vr6" value="0">nee</label>
+    <label><input type="radio" name="vr6" value="15" required>ja</label><br>
+    <label><input type="radio" name="vr6" value="2" required>nee</label>
 
 
     <p>Kunt u goed met kritiek omgaan(Lastige klanten)?</p>
-    <label><input type="radio" name="vr7" value="1">ja</label><br>
-    <label><input type="radio" name="vr7" value="-1">nee</label>
+    <label><input type="radio" name="vr7" value="5" required>ja</label><br>
+    <label><input type="radio" name="vr7" value="2" required>nee</label>
 
 
     <p>Begin je makkelijk een gesprek?</p>
-    <label><input type="radio" name="vr8" value="1">ja</label><br>
-    <label><input type="radio" name="vr8" value="-1">nee</label>
+    <label><input type="radio" name="vr8" value=5" required>ja</label><br>
+    <label><input type="radio" name="vr8" value="2" required>nee</label>
 
 
     <p>Ben je snel vies van eten of etensresten?</p>
-    <label><input type="radio" name="vr9" value="-1">ja</label><br>
-    <label><input type="radio" name="vr9" value="1">nee</label>
+    <label><input type="radio" name="vr9" value="5" required>ja</label><br>
+    <label><input type="radio" name="vr9" value="-5" required>nee</label>
+
+
+    <p>Heb je ervaring als kok in de horeca?</p>
+    <label><input type="radio" name="vr15" value="30" required>ja</label><br>
+    <label><input type="radio" name="vr15" value="2" required>nee</label>
 
 
     <p>Kan je onder druk werken?</p>
-    <label><input type="radio" name="vr10" value="1">ja</label><br>
-    <label><input type="radio" name="vr10" value="0">nee</label>
+    <label><input type="radio" name="vr10" value="2" required>ja</label><br>
+    <label><input type="radio" name="vr10" value="2" required>nee</label>
 
 
     <p>Ben je bereid om te leren?</p>
-    <label><input type="radio" name="vr11" value="1">ja</label><br>
-    <label><input type="radio" name="vr11" value="-2">nee</label>
+    <label><input type="radio" name="vr11" value="2" required>ja</label><br>
+    <label><input type="radio" name="vr11" value="2" required>nee</label>
 
 
     <p>Kan je goed samenwerken?</p>
-    <label><input type="radio" name="vr12" value="2">ja</label><br>
-    <label><input type="radio" name="vr12" value="1">nee</label>
+    <label><input type="radio" name="vr12" value="2" required>ja</label><br>
+    <label><input type="radio" name="vr12" value="5" required>nee</label>
 
 
     <p>Denk je dat jij een horeca uitstraling hebt?</p>
-    <label><input type="radio" name="vr13" value="1">ja</label><br>
-    <label><input type="radio" name="vr13" value="0">nee</label>
+    <label><input type="radio" name="vr13" value="5" required>ja</label><br>
+    <label><input type="radio" name="vr13" value="2" required>nee</label>
 
 
     <p>Vind je het niet erg om een aantal overuren te maken?</p>
-    <label><input type="radio" name="vr14" value="0">ja</label><br>
-    <label><input type="radio" name="vr14" value="1">nee</label>
+    <label><input type="radio" name="vr14" value="2" required>ja</label><br>
+    <label><input type="radio" name="vr14" value="2" required>nee</label>
 
 
-    <p>Vind je het niet erg om een aantal overuren te maken?</p>
-    <label><input type="radio" name="vr15" value="0">ja</label><br>
-    <label><input type="radio" name="vr15" value="1">nee</label><br>
 
 
     <p>Wat denk jij wat jouw uitslag wordt?</p>
