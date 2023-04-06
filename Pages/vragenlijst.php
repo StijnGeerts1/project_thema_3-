@@ -11,6 +11,7 @@ project
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sense</title>
+    <link rel="stylesheet" href="../Styles/nav-foot.css">
 </head>
 <header>
     <?php
@@ -18,8 +19,7 @@ project
 
     ?>
 </header>
-
-<body>
+<body class="achtergrond">
 <?php
 // om de tijdzone te bepalen
 date_default_timezone_set('Europe/Amsterdam');
@@ -28,7 +28,7 @@ $hour = date(format:"H");
 // om aan de hand van het uur een zin maken
 if ($hour <=5)
 {
-    echo "<h2 class='uur'>Goedenacht, welkom bij de zelftest</h2>
+    echo "<h2 class='uur'>Goedenacht, welkom bij de zelftest</h2><br>
           <p>Wij hebben een zelftest gemaakt voor toekomstige medewerkers en huidige medewerkers zodat jullie je beste behorende afdeling komen. De afdelingen zijn: barmedewerker, bediening medewerker, schoonmaak en chef. Dus denk goed na over de vragen.</p>";
 }
 elseif ($hour >= 6 && $hour<=11)
@@ -48,10 +48,10 @@ elseif ($hour >=18 && $hour<=23)
 }
 ?>
 <form action="result.php" method="post" name="zelftest">
-
-    <p>Wat is u Naam?</p>
-    <input type="text" name="vr1">
-
+    <article>
+        <p>Wat is u Naam?</p>
+        <input type="text" name="vr1">
+    </article>
     <p>Wat is u Leeftijd?</p>
     <input type="text" name="vr2">
 
@@ -126,5 +126,6 @@ elseif ($hour >=18 && $hour<=23)
     <label><input type="checkbox"  value="0">schoonmaak</label><br>
     <input type="submit"  value="verzenden" id="lijstbutton">
 </form>
+<?php include ("../Includes/footer.php")?>
 </body>
 </html>

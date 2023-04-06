@@ -148,7 +148,6 @@ form
 #lijstbutton
 {
     padding: 12px 30px;
-    background: transparent;
     color: #e53935;
     font-size: 16px;
     font-weight: 400;
@@ -175,6 +174,7 @@ form
     width: 55%;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 footer
@@ -220,6 +220,25 @@ h3
 {
     font-weight:normal;
 }
+
+.achtergrond
+{
+    background-image:url("../Images/6b1ae29eecf24e0e046e51293891bb20.jpg");
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment:fixed;
+    color: white;
+}
+
+article p
+{
+    margin: 0;
+}
+
+
 
 @media screen and (max-width: 900px)
 {
