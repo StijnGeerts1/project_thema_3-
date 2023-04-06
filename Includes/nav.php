@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../Styles/nav-foot.css">
 </head>
 <body>
 <div class="container">

@@ -1,4 +1,8 @@
-
+<!--
+datum :27-3-2023
+auteur: Stijn, Beau en vadinho
+project
+-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,20 +12,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>sence</title>
     <link href="Styles/style.css" rel="stylesheet">
+    <link href="Styles/nav-foot.css" rel="stylesheet">
 </head>
 <body>
     <header class="hoofdpagina">
         <img src="Images/sence_logo.png">
-        <?php include ("/inetpub/wwwroot/project_thema_3-/Includes/nav.php")?>
+        <?php include ("/inetpub/wwwroot/Project_T3/Includes/nav.php")?>
         <h1>"Eten moet spannend zijn zonder afbreuk te doen aan de authentieke smaak van de ingrediënten."</h1>
         <p>Dennis Middeldorp, Patron Cuisinier</p>
-        <a class="buttonwerk" href="#">Werken bij Sence?</a>
+        <a class="buttonwerk" href="Pages/vragenlijst.php">Werken bij Sence? -></a>
         <div class="opvulling"></div>
     </header>
     <main>
         <div>
             <div class="tekst">
-                <img src="../project_thema_3-/Images/OIP.jpg" class="dennis">
+                <img src="Images/OIP.jpg" class="dennis">
                 <h2>Dennis Middeldorp</h2>
                 <p>Patron Cuisinier Dennis Middeldorp kookt puur, creatief en verfijnd met alleen de allerbeste producten. De geboren en getogen Bosschenaar die in 2008 zijn geliefde Sense Restaurant oprichtte, haalt het beste uit dagverse en duurzame ingrediënten: "Bij het bedenken van een gerecht wil ik de essentie van smaken samenbrengen. Genieten van smaak, kleur, mondgevoel, de sfeer in het restaurant; alles moet kloppen."</p>
                 <p>Samen met zijn rechterhanden Chefs de Cuisine Peter Linnenbank, Meesterkok Johan Van Groeninge én zijn gepassioneerde en gedreven team, dat zich elke dag met evenveel bevlogenheid en teamgeest inzet, brengt hij de meest mooie smaken met een aziatische, moderne invloed samen. Zijn liefde voor de botanische gastronomie gaat hand in hand met zijn liefde voor vlees en vis. <br><br> Trots is hij op de samenwerking met lokale leveranciers en zijn vriendschap met het Hartenboeren Voedselbos waar hij en zijn team zelf de kruiden en groentjes plukken.</p>
@@ -60,7 +65,8 @@
             <figure class="wrapper">
                 <img class="display1" src="Images/lunch%20en%20diner.jpg">
                 <h2>Lunch & Diner</h2>
-                <p>Een lunch of diner bij Sense Restaurant is een culinair samenspel van de pure en creatieve gerechtjes van Patron Cuisinier Dennis Middeldorp, prachtig aangevuld met de wijnen van Sommelier Sven Heijkoop. Laat je verrassen door het Chef’s Challenge menu of kies voor culinaire warme of koude gerechtjes van onze menukaart.<br><br> <a class="leesmeer" href="#"> Lees meer-> </a></p>
+                <p>Een lunch of diner bij Sense Restaurant is een culinair samenspel van de pure en creatieve gerechtjes van Patron Cuisinier Dennis Middeldorp, prachtig aangevuld met de wijnen van Sommelier Sven Heijkoop. Laat je verrassen door het Chef’s Challenge menu of kies voor culinaire warme of koude gerechtjes van onze menukaart.<br><br> <a class="leesmeer" href="#"> Lees meer-> </a>
+                </p>
             </figure>
             <figure class="wrapper">
                 <img class="display1" src="Images/zakelijk.jpg">
@@ -69,5 +75,6 @@
             </figure>
         </section>
     </main>
+    <?php include ("/inetpub/wwwroot/Project_T3/Includes/footer.php")?>
 </body>
 </html>

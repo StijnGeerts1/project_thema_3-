@@ -18,30 +18,32 @@ project
 
     ?>
 </header>
+<!--hallo world-->
 <body>
 <?php
-
+// om de tijdzone te bepalen
+date_default_timezone_set('Europe/Amsterdam');
 // om het uur op te slaan
 $hour = date(format:"H");
 // om aan de hand van het uur een zin maken
 if ($hour <=5)
 {
-    echo "<h2>Goedenacht, welkom op onze site</h2><br>
+    echo "<h2 class='uur'>Goedenacht, welkom bij de zelftest</h2><br>
           <p>Wij hebben een zelftest gemaakt voor toekomstige medewerkers en huidige medewerkers zodat jullie je beste behorende afdeling komen. De afdelingen zijn: barmedewerker, bediening medewerker, schoonmaak en chef. Dus denk goed na over de vragen.</p>";
 }
 elseif ($hour >= 6 && $hour<=11)
 {
-    echo "<h2>Goedemorgen, welkom op onze site</h2><br>
+    echo "<h2 class='uur'>Goedemorgen, welkom bij de zelftest</h2><br>
           <p>Wij hebben een zelftest gemaakt voor toekomstige medewerkers en huidige medewerkers zodat jullie je beste behorende afdeling komen. De afdelingen zijn: barmedewerker, bediening medewerker, schoonmaak en chef. Dus denk goed na over de vragen.</p>";
 }
 elseif ($hour >= 12 && $hour<=17)
 {
-    echo "<h2>Goedemiddag, welkom op onze site</h2><br>
+    echo "<h2 class='uur'>Goedemiddag, welkom bij de zelftest</h2><br>
           <p>Wij hebben een zelftest gemaakt voor toekomstige medewerkers en huidige medewerkers zodat jullie je beste behorende afdeling komen. De afdelingen zijn: barmedewerker, bediening medewerker, schoonmaak en chef. Dus denk goed na over de vragen.</p>";
 }
 elseif ($hour >=18 && $hour<=23)
 {
-    echo "<h2>Goedenavond, welkom op onze site</h2><br>
+    echo "<h2 class='uur'>Goedenavond, welkom bij de zelftest</h2><br>
           <p>Wij hebben een zelftest gemaakt voor toekomstige medewerkers en huidige medewerkers zodat jullie je beste behorende afdeling komen. De afdelingen zijn: barmedewerker, bediening medewerker, schoonmaak en chef. Dus denk goed na over de vragen.</p>";
 }
 ?>
