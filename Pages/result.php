@@ -17,8 +17,7 @@ project
 <body>
 <header>
     <?php
-    include "../Includes/nav.php";
-
+        include "../Includes/nav.php";
     ?>
 </header>
 <main>
@@ -142,13 +141,6 @@ project
         } else {
             $vr15 = null;
         }
-        $looppunten =0;
-
-        for ($i =0; $i <= $Total; $i++)
-        {
-            $looppunten += $Total[$i];
-            echo "Totaal aantal punten na vraag ".($i + 1). ":" . $looppunten[$i];
-        }
     }
     else
     {
@@ -176,6 +168,13 @@ project
         echo "<p>U Past het beste op de positie van</p><h2>Keuken</h2>";
 
     }
+    $looppunten =0;
+
+    for ($i =0; $i <= $Total; $i++)
+    {
+        $looppunten += $Total[$i];
+        echo "Totaal aantal punten na vraag ".($i + 1). ":" . $looppunten[$i];
+    }
     ?>
 
 
@@ -183,6 +182,8 @@ project
 <?php
 include("../Includes/footer.php")
 ?>
-
+<?php
+    setcookie("result", $Total,time() + (60*60*24*14));
+?>
 </body>
 </html>
