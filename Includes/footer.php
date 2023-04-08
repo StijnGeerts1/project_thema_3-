@@ -6,19 +6,14 @@ project
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
 </head>
 <body>
     <footer class="footerwrapper">
         <div class="wrapper2">
-            <img src="Images/logo-zwart.png" class="logozwart"> <br> <br>
-            <img src="Images/dutch-cuisine.png" class="logos3">
-            <img src="Images/alliance-gastronomique.png" class="logos3">
-            <img src="Images/michellin.png" class="logos3">
+            <img src="/Project_T3/Images/logo-zwart.png" class="logozwart"> <br> <br>
+            <img src="/Project_T3/Images/dutch-cuisine.png" class="logos3">
+            <img src="/Project_T3/Images/alliance-gastronomique.png" class="logos3">
+            <img src="/Project_T3/Images/michellin.png" class="logos3">
         </div>
         <div class="wrapper2">
             <h3>Aanvangstijden</h3>
