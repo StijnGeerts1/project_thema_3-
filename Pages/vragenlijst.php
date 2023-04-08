@@ -80,8 +80,8 @@ elseif ($hour >=18 && $hour<=23)
 
 
     <p>Begin je makkelijk een gesprek?</p>
-    <label><input type="radio" name="vr8" value=5" required>ja</label><br>
-    <label><input type="radio" name="vr8" value="2" required>nee</label>
+    <label><input type="radio" name="vr8" value="5" required>ja</label><br>
+    <label><input type="radio" name="vr8" value="2" required>nee</label>ss
 
 
     <p>Ben je snel vies van eten of etensresten?</p>
