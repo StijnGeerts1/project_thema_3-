@@ -176,7 +176,6 @@ project
         echo "<p>U Past het beste op de positie van</p><h2>Keuken</h2>";
 
     }
-
     ?>
 
 

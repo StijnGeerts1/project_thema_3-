@@ -10,6 +10,13 @@ p
 main
 {
     height: 100vh;
+    background-image:url("../Images/6b1ae29eecf24e0e046e51293891bb20.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment:fixed;
+    color: white;
 }
 
 h2
