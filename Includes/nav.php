@@ -12,7 +12,7 @@
                 <li><a href='/Project_T3/Index.php'>restaurant Sense</a></li>
                 <li><a href='#'>menu</a></li>
                 <li><a href='#'>Welkom bij Sense!</a></li>
-                <li><a href='Pages/vragenlijst.php'>vragenlijst</a></li>
+                <li><a href='/Project_T3/Pages/vragenlijst.php'>vragenlijst</a></li>
                 <li><a href='#'>Contact</a></li>
             </ul>
         </nav>
