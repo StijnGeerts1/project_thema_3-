@@ -149,12 +149,12 @@ project
 //            $looppunten += $Total[$i];
 //            echo "Totaal aantal punten na vraag ".($i + 1). ":" . $looppunten[$i];
 //        }
-        $looppunten = 0;
-        for ($i = 0; $i < count($Total); $i++)
-        {
-            $looppunten += $Total[$i];
-            echo "Totaal aantal punten na vraag " . ($i + 1) . ": " . $looppunten . "<br>";
-        }
+//        $looppunten = 0;
+//        for ($i = 0; $i < count($Total); $i++)
+//        {
+//            $looppunten += $Total[$i];
+//            echo "Totaal aantal punten na vraag " . ($i + 1) . ": " . $looppunten . "<br>";
+//        }
 
 
 
@@ -185,14 +185,21 @@ project
         echo "<p>U Past het beste op de positie van</p><h2>Keuken</h2>";
 
     }
-
+    $looppunten = 0;
+    for ($i = 0; $i < count($Total); $i++)
+    {
+        $looppunten += $Total[$i];
+        echo "Totaal aantal punten na vraag " . ($i + 1) . ": " . $looppunten . "<br>";
+    }
     ?>
 
 
 </main>
 <?php
-include("../Includes/footer.php")
+    include("../Includes/footer.php");
 ?>
-
+<?php
+    setcookie("result", $Total, time()(60*60*24*14));
+?>
 </body>
 </html>
