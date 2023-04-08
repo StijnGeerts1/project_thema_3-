@@ -142,13 +142,22 @@ project
         } else {
             $vr15 = null;
         }
-        $looppunten =0;
+//        $looppunten =0;
 
-        for ($i =0; $i <= $Total; $i++)
+//        for ($i =0; $i <= $Total; $i++)
+//        {
+//            $looppunten += $Total[$i];
+//            echo "Totaal aantal punten na vraag ".($i + 1). ":" . $looppunten[$i];
+//        }
+        $looppunten = 0;
+        for ($i = 0; $i < count($Total); $i++)
         {
             $looppunten += $Total[$i];
-            echo "Totaal aantal punten na vraag ".($i + 1). ":" . $looppunten[$i];
+            echo "Totaal aantal punten na vraag " . ($i + 1) . ": " . $looppunten . "<br>";
         }
+
+
+
     }
     else
     {
