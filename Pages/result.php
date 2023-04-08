@@ -154,7 +154,32 @@ project
     {
         echo "<p>Je hebt geen vragen ingevuld</p>";
     }
+
+
+    if ($Total >= 10 && $Total <= 30)
+    {
+        echo "<p>U Past het beste op de positie van</p><h2>Schoonmaak</h2>";
+
+    }
+    elseif ($Total >= 31 && $Total <= 50)
+    {
+        echo "<p>U Past het beste op de positie van</p><h2>Bediening</h2>";
+
+    }
+    elseif ($Total >= 51 && $Total <= 60)
+    {
+        echo "<p>U Past het beste op de positie van</p><h2>Bar</h2>";
+
+    }
+    else
+    {
+        echo "<p>U Past het beste op de positie van</p><h2>Keuken</h2>";
+
+    }
+
     ?>
+
+
 </main>
 <?php
 include("../Includes/footer.php")
