@@ -142,6 +142,8 @@ project
         } else {
             $vr15 = null;
         }
+        $Time = date("d-m-y h:i");
+        echo "u heeft op $Time de zelftest ingevuld, <br> Bedankt $Name";
 //        $looppunten =0;
 
 //        for ($i =0; $i <= $Total; $i++)
@@ -163,7 +165,6 @@ project
     {
         echo "<p>Je hebt geen vragen ingevuld</p>";
     }
-
 
     if ($Total >= 10 && $Total <= 30)
     {
