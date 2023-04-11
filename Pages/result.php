@@ -151,7 +151,7 @@ project
 // hier wordt de datum en tijd opgeslagen
     $Date = date("d-m-y H:i");
 
-
+// als de totaal aantal punten tussen de 10 en 30 zitten krijg je dit als advies
     if ($Total >= 10 && $Total <= 30)
     {
         echo "<p>Beste $Name, u Past het beste op de positie van</p><h2>Schoonmaak</h2>";
@@ -159,25 +159,28 @@ project
 
 
     }
+    // als de totaal aantal punten tussen de 31 en 50 zitten krijg je dit als advies
     elseif ($Total >= 31 && $Total <= 50)
     {
         echo "<p>Beste $Name, u Past het beste op de positie van</p><h2>Bediening</h2>";
         echo "<p>Deze lijst is ingevuld op: $Date</p>";
 
     }
+    // als de totaal aantal punten tussen de 51 en 60 zitten krijg je dit als advies
     elseif ($Total >= 51 && $Total <= 60)
     {
         echo "<p>Beste $Name, u Past het beste op de positie van</p><h2>Bar</h2>";
         echo "<p>Deze lijst is ingevuld op: $Date</p>";
 
     }
+    // en als het geen van boven is krijg je dit als advies
     else
     {
         echo "<p>Beste $Name, u Past het beste op de positie van</p><h2>Keuken</h2>";
         echo "<p>Deze lijst is ingevuld op: $Date</p>";
     }
 
-
+// dit is een loop die na elke vraag het totaal aantal aangeeft
     $looppunten = 4;
     for ($i = 4; $i < count($_POST); $i++) {
         $looppunten += $_POST["vr" . $i];

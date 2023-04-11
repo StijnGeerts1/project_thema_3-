@@ -3,10 +3,13 @@ Datum : 27-3-2023
 Auteur: Stijn, Beau en Vadinho
 Project
 */
+/*om het in het midden te zetten*/
+
 p
 {
     text-align: center;
 }
+/*om een achtergrondimage zetten en style*/
 main
 {
     height: 100vh;
@@ -18,15 +21,14 @@ main
     background-attachment:fixed;
     color: white;
 }
+/*om het in het midden te zetten*/
 
 h2
 {
     text-align: center;
 }
-
+/*om het in het midden te zetten*/
 .Totaal
 {
     text-align: center;
-
-
 }
