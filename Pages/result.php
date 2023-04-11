@@ -18,7 +18,7 @@ project
 <header>
     <?php
     include "../Includes/nav.php";
-
+    $_COOKIE["result"];
     ?>
 </header>
 <main>
@@ -143,21 +143,6 @@ project
         } else {
             $vr15 = null;
         }
-//        $looppunten =0;
-
-//        for ($i =0; $i <= $Total; $i++)
-//        {
-//            $looppunten += $Total[$i];
-//            echo "Totaal aantal punten na vraag ".($i + 1). ":" . $looppunten[$i];
-//        }
-//        $looppunten = 0;
-//        for ($i = 0; $i < count($Total); $i++)
-//        {
-//            $looppunten += $Total[$i];
-//            echo "Totaal aantal punten na vraag " . ($i + 1) . ": " . $looppunten . "<br>";
-//        }
-
-
 
     }
     else
@@ -165,7 +150,7 @@ project
         echo "<p>Je hebt geen vragen ingevuld</p>";
     }
 
-    $Date = date("d-m-y");
+    $Date = date("d-m-y H:i");
 
 
     if ($Total >= 10 && $Total <= 30)
@@ -214,7 +199,8 @@ project
     include("../Includes/footer.php");
 ?>
 <?php
-//    setcookie("result", $Total, time()(60*60*24*14));
+echo $Total;
+    setcookie("result", $Total, time() + (60*60*24*14));
 ?>
 </body>
 </html>
