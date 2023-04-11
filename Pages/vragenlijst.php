@@ -88,12 +88,6 @@ elseif ($hour >=18 && $hour<=23)
     <label><input type="radio" name="vr9" value="5" required>ja</label><br>
     <label><input type="radio" name="vr9" value="-5" required>nee</label>
 
-
-    <p>Heb je ervaring als kok in de horeca?</p>
-    <label><input type="radio" name="vr15" value="30" required>ja</label><br>
-    <label><input type="radio" name="vr15" value="2" required>nee</label>
-
-
     <p>Kan je onder druk werken?</p>
     <label><input type="radio" name="vr10" value="2" required>ja</label><br>
     <label><input type="radio" name="vr10" value="2" required>nee</label>
@@ -118,7 +112,9 @@ elseif ($hour >=18 && $hour<=23)
     <label><input type="radio" name="vr14" value="2" required>ja</label><br>
     <label><input type="radio" name="vr14" value="2" required>nee</label>
 
-
+    <p>Heb je ervaring als kok in de horeca?</p>
+    <label><input type="radio" name="vr15" value="30" required>ja</label><br>
+    <label><input type="radio" name="vr15" value="2" required>nee</label>
 
 
     <p>Wat denk jij wat jouw uitslag wordt?</p>

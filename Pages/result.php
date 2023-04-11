@@ -24,8 +24,8 @@ project
 <main>
     <?php
     $Total = 0;
-    if($Total >= 1) {
-
+    if($Total <= 0)
+    {
 
         if (isset($_POST["vr1"])) {
             $Name = isset($_POST["vr1"]);
@@ -39,13 +39,11 @@ project
             $Age = null;
         }
 
-
         if (isset($_POST["vr3"])) {
             $Exp = isset($_POST["vr3"]);
         } else {
             $Exp = null;
         }
-
 
         if (isset($_POST["vr4"])) {
             $vr4 = isset($_POST["vr4"]);
@@ -55,14 +53,12 @@ project
             $vr4 = null;
         }
 
-
         if (isset($_POST["vr5"])) {
             $vr5 = isset($_POST["vr5"]);
             $Total += $vr5;
         } else {
             $vr5 = null;
         }
-
 
         if (isset($_POST["vr6"])) {
             $vr6 = isset($_POST["vr6"]);
@@ -71,14 +67,12 @@ project
             $vr6 = null;
         }
 
-
         if (isset($_POST["vr7"])) {
             $vr7 = isset($_POST["vr7"]);
             $Total += $vr7;
         } else {
             $vr7 = null;
         }
-
 
         if (isset($_POST["vr8"])) {
             $vr8 = isset($_POST["vr8"]);
@@ -87,14 +81,12 @@ project
             $vr8 = null;
         }
 
-
         if (isset($_POST["vr9"])) {
             $vr9 = isset($_POST["vr9"]);
             $Total += $vr9;
         } else {
             $vr9 = null;
         }
-
 
         if (isset($_POST["vr10"])) {
             $vr10 = isset($_POST["vr10"]);
@@ -103,14 +95,12 @@ project
             $vr10 = null;
         }
 
-
         if (isset($_POST["vr11"])) {
             $vr11 = isset($_POST["vr11"]);
             $Total += $vr11;
         } else {
             $vr11 = null;
         }
-
 
         if (isset($_POST["vr12"])) {
             $vr12 = isset($_POST["vr12"]);
@@ -119,14 +109,12 @@ project
             $vr12 = null;
         }
 
-
         if (isset($_POST["vr13"])) {
             $vr13 = isset($_POST["vr13"]);
             $Total += $vr13;
         } else {
             $vr13 = null;
         }
-
 
         if (isset($_POST["vr14"])) {
             $vr14 = isset($_POST["vr14"]);
@@ -135,13 +123,13 @@ project
             $vr14 = null;
         }
 
-
         if (isset($_POST["vr15"])) {
             $vr15 = isset($_POST["vr15"]);
             $Total += $vr15;
         } else {
             $vr15 = null;
         }
+
         $Time = date("d-m-y h:i");
         echo "u heeft op $Time de zelftest ingevuld, <br> Bedankt $Name";
 //        $looppunten =0;
@@ -159,8 +147,9 @@ project
 //        }
 
 
-
     }
+
+
     else
     {
         echo "<p>Je hebt geen vragen ingevuld</p>";
@@ -184,15 +173,15 @@ project
     else
     {
         echo "<p>U Past het beste op de positie van</p><h2>Keuken</h2>";
-
     }
-    $looppunten = 0;
-    for ($i = 0; $i < count($Total); $i++)
-    {
-        $looppunten += $Total[$i];
-        echo "Totaal aantal punten na vraag " . ($i + 1) . ": " . $looppunten . "<br>";
-    }
-    ?>
+    echo "$Total";
+//    $looppunten = 0;
+//    for ($i = 0; $i < count($Total); $i++)
+//    {
+//        $looppunten += $Total[$i];
+//        echo "Totaal aantal punten na vraag " . ($i + 1) . ": " . $looppunten . "<br>";
+//    }
+//    ?>
 
 
 </main>
