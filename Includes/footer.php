@@ -29,9 +29,9 @@ project
             <h3>Nieuwsbrief</h3>
             <p>Voornaam</p>
             <input type="text">
-            <p>achternaam</p>
+            <p>Achternaam</p>
             <input type="text">
-            <p>e-mail</p>
+            <p>E-mail</p>
             <input type="text"> <br>
             <input type="submit"  value="verzenden" id="lijstbutton">
         </div>
