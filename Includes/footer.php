@@ -10,10 +10,10 @@ project
 <body>
     <footer class="footerwrapper">
         <div class="wrapper2">
-            <img src="/Project_T3/Images/logo-zwart.png" class="logozwart"> <br> <br>
-            <img src="/Project_T3/Images/dutch-cuisine.png" class="logos3">
-            <img src="/Project_T3/Images/alliance-gastronomique.png" class="logos3">
-            <img src="/Project_T3/Images/michellin.png" class="logos3">
+            <img src="/Images/logo-zwart.png" class="logozwart"> <br> <br>
+            <img src="/Images/dutch-cuisine.png" class="logos3">
+            <img src="/Images/alliance-gastronomique.png" class="logos3">
+            <img src="/Images/michellin.png" class="logos3">
         </div>
         <div class="wrapper2">
             <h3>Aanvangstijden</h3>
