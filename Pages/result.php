@@ -24,7 +24,7 @@ project
 <main>
     <?php
     $Total = 0;
-    if($Total >= 1) {
+    if($Total <= 1) {
 
 
         if (isset($_POST["vr1"])) {
