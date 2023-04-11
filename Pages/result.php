@@ -18,7 +18,7 @@ project
 <header>
     <?php
     include "../Includes/nav.php";
-    $_COOKIE["result"];
+    $_COOKIE["result"]; // ik roep hier de cookie met de totaal aantal punten
     ?>
 </header>
 <main>
@@ -26,7 +26,6 @@ project
 
     $Total = 0;
     if($Total <= 1) {
-
 
         if (isset($_POST["vr1"])) {
             $Name = $_POST["vr1"];
@@ -149,7 +148,7 @@ project
     {
         echo "<p>Je hebt geen vragen ingevuld</p>";
     }
-
+// hier wordt de datum en tijd opgeslagen
     $Date = date("d-m-y H:i");
 
 
@@ -198,8 +197,7 @@ project
 <?php
     include("../Includes/footer.php");
 ?>
-<?php
-echo $Total;
+<?php // dit slaat de totaal aantal punten op
     setcookie("result", $Total, time() + (60*60*24*14));
 ?>
 </body>
